@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bộ công cụ tính toán phác đồ điều trị</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="stylesheet" href="SHBX.css"/>
+  <script src="script.js"></script>
+</head>
+  
+<body>
+ <h1 class="tuade">BỘ CÔNG CỤ TÍNH TOÁN PHÁC ĐỒ ĐIỀU TRỊ</h1>
+  
+ <div class="demucnho1">
+ <h2> TÍNH BED (BIOLOGICALLY EFFECTIVE DOSE) VÀ EQD2 (EQUIVALENT DOSE)</h2>
+ </div>
+
+ <div class="part1a">
+  <div class="n"><b>n <input id="TongLieu" type="text" class="tonglieu"> <br></div>
+  <div class="n">d <input id="PhanLieu" type="text" class="sophanlieu"> <br></div>
+  <div class="n">α/β <input id="ab" type="text" class="tysoa"> </div>
+  
+ <button class="tinh1" onclick="BED()"><b>Tính toán</b></button>
+
+ <div class="n"> BED  <input id="kqBED" type="text" class="son1"> <br> </div>
+ <div class="n"> EQD2<input id="kqeqd2" type="text" class="son12"> </div>
+ </div>
+  
+<table class="a">
+<div class="tab">
+  <div>
+    <th rowspan="6" class="bthuc"> <b> BIỂU THỨC </b> <br>
+    <div class="BED">
+    $$BED=nd\Bigg(1+\frac{d}{\frac{\alpha}{\beta}}\Bigg)$$
+    $$EQD2=D\Bigg(\frac{d+\frac{\alpha}{\beta}}{2+\frac{\alpha}{\beta}}\Bigg)$$
+    </div>
+    </th>
+  </div>
+  <div>
+  <div>
+    <th class="kihieu"><b> KÍ HIỆU </b></th> 
+    <th class="mota"><b> MÔ TẢ  </b></th>
+  </div>
+  <tr>
+    <td class="d"><b>n </td>
+    <td class="d"> <b>Số phân liều (đơn vị: lần) </td> 
+  </tr>
+  
+  <tr>
+    <td class="d"><b> d </td>
+    <td class="d"><b>Phân liều (đơn vị: Gy)</td>
+  </tr>
+  <tr>
+    <td class="d"><b> $$\frac{\alpha}{\beta}$$ </td>
+    <td class="d"><b> Tỷ lệ (đơn vị: Gy)</td>
+  </tr>
+  </div>
+</div>
+</table>
+
+
+  
+  
+<div class="demucnho2">  
+<h2> CHUYỂN ĐỔI PHÁC ĐỒ ĐIỀU TRỊ </h2>
+</div>
+  
+<div class="part2">
+<div class="part2a">
+<h3 class="td1"> Tính n đã chuyển đổi </h3> <br> 
+<div class="ncd">
+  <div class="n"><b>n<sub>1</sub><input id="n1" type="text" class="son1"> </div>
+  <div class="n">d<sub>1</sub><input id="d1" type="text" class="sod1"> <br></div>
+  <div class="n">d<sub>2</sub>
+  <input id="d2" type="text" class="sod2"> <br></div>
+  <div class="n"> α/β<input id="abcd" type="text" class="tysob"/> <br></div>
+  <button class="tinh2" onclick="ChuyenDoi()"><b>Tính toán</b></button><br>
+  <div class="n">n<sub>2</sub>
+  <input id="n2" type="text" class="son1"> <br></div>
+</div>
+</div>
+  
+  <div class="part2b">
+  <h3 class="n1"> Tính d sau chuyển đổi </h3> <br>                
+  <div class="ncd1">
+    <div class="n"><b>n<sub>1</sub><input id="n21" type="text" class="son1"> </div>
+    <div class="n">d<sub>1</sub><input id="d21" type="text" class="sod1"> <br></div>
+    <div class="n">n<sub>2</sub>
+    <input id="n22" type="text" class="sod2"> <br></div>
+    <div class="n"> α/β<input id="abcd2" type="text" class="tysob"/> <br></div>
+    <button class="tinh2" onclick="ChuyenDoi2()"><b>Tính toán</b></button><br>
+    <div class="n">d<sub>2</sub>
+    <input id="d22" type="text" class="son1"> <br></div>
+  </div>
+</div>
+</div>
+
+
+<div class="demucnho3">
+<h2>SỬA SAI PHÂN LIỀU</h2>
+</div>
+
+<div class="part3a">
+  <div class="nc">d<sub>p</sub><input type="text" class="dp" id="dp"/> <br></div>
+  <div class="nc">n<sub>p</sub><input type="text" class="np" id="np" /> <br></div>
+  <div class="nc">d<sub>e</sub><input type="text" class="de" id="de"/> <br></div>
+  <div class="nc">n<sub>e</sub><input type="text" class="ne" id="ne"/> <br></div>
+  <button class="tinh3" onclick="SuaSai()">Tính toán</button><br>
+  <div class="nc">d<sub>c</sub><input type="text" class="ne" id="dc"/></div>
+  <div class="nc">n<sub>c</sub><input type="text" class="ne" id="nc"/></div>
+</div>
+  
+<table class="b">
+<div>
+  <th rowspan="7" class="bthuc1"> <b>BIỂU THỨC</b><br>
+  <div class="dc">
+    $$d_c=\frac{D_pd_p-D_ed_e}{D_p-D_e}$$
+  </div>
+  </th>
+</div>
+  
+<tr>
+    <th class="kihieu"><b> KÍ HIỆU </b></th> 
+    <th class="mota"><b> MÔ TẢ  </b></th>
+</tr>
+  <tr>
+    <td class="d"> d<sub>p</sub>, n<sub>p</sub>, D<sub>p</sub> </td> 
+    <td class="d"> Phân liều, số phân liều, tổng liều theo kế hoạch </td>
+  </tr>
+  
+  <tr>
+    <td class="d"> d<sub>e</sub>, n<sub>e</sub>, D<sub>e</sub> </td>
+    <td class="d"> Phân liều, số phân liều, tổng liều xạ sai</td>
+  </tr>
+  <tr>
+    <td class="d"> d<sub>c</sub>, n<sub>c</sub>, D<sub>c</sub> </td>
+    <td class="d"> Phân liều, số phân liều, tổng liều hiệu chỉnh</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,455 @@
+body {
+  background: linear-gradient(320deg,#f3d8c7, #efe5dc, #f7fff7);
+}
+
+
+
+.tuade {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  border: 2px solid;
+  background: #dab49d;
+  border-radius: 6px;
+  margin: 20px 30px 75px 30px;
+  padding: 20px 10px 20px 10px;
+}
+.demucnho1 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  background: #d5b9b2;
+  border-radius: 6px;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 5px 1px;
+  box-shadow: 8px 8px #6c757d;
+  max-width: fit-content;
+}
+.demucnho2{
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  background: #d5b9b2;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 5px 1px;
+  box-shadow: 8px 8px #6c757d;
+  max-width: fit-content;
+}
+.demucnho3 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  background: #d5b9b2;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 5px 1px;
+  box-shadow: 8px 8px #6c757d;
+  max-width: fit-content;
+}
+
+.part1a {
+  background-color: #f0ead2;
+  border: 3px solid;
+  border-radius: 20px;
+  height: 250px;
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+}
+.tinh1{
+  margin: auto;
+  width: 90px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 8px 13px;
+  border-radius: 13px;
+  background-color: #86cb92;
+}
+.n {
+  margin-left: 16px;
+  text-align: center;
+}
+
+.tonglieu {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  padding: 4px 5px;
+  width: 150px;
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sophanlieu {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  padding: 4px 5px;
+  width: 150px;
+  margin: auto;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.tysoa {
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  padding: 4px 5px;
+  width: 150px;
+  margin-left: 4px;
+}
+.son1{
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: auto;
+  margin-left: 17px;
+  margin-bottom: 10px;
+  width: 100px;
+  padding: 4px 5px;
+}
+.son12 {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: auto;
+  margin-left: 12px;
+  width: 100px;
+  padding: 4px 5px;
+}
+.a{
+  background-color: #f0ead2;
+  border: 3px solid #2d3142;
+  text-align: center;
+  border-radius: 6px;
+  font-family: "League Spartan", sans-serif;
+  height: 30px;
+  width: 600px;
+  padding: 10px 3px 10px 5px;
+  margin: auto;
+  margin-top: 20px;
+}
+.bthuc{
+  background-color: #f1e3d3;
+  border: 1px dashed #6c757d;
+  border-radius: 6px;
+  margin: auto;
+}
+.kihieu,.kihieu1,mota{
+  margin: auto;
+}
+
+
+
+.part2 {
+  display: flex;
+  justify-content: center;
+}
+.part2a {
+  text-align: center;
+  background-color: #f0ead2;
+  border: 3px solid;
+  border-radius: 20px;
+  height: 290px;
+  width: 250px;
+  padding: 10px;
+  font-family: "League Spartan", sans-serif;
+  margin-right: 50px;
+
+}
+.part2b {
+  text-align: center;
+  background-color: #f0ead2;
+  border: 3px solid;
+  border-radius: 20px;
+  height: 290px;
+  width: 250px;
+  padding: 10px;
+  font-family: "League Spartan", sans-serif;
+}
+.td1 {
+  text-align: center;
+  margin: 10px 8px 1px 8px;
+}
+
+.sod1 {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: auto;
+  margin-left: 19px;
+  padding: 4px 5px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sod2 {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: auto;
+  margin-left: 15px;
+  padding: 4px 5px;
+  width: 100px;
+}
+.tysob {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 12px;
+  padding: 4px 5px;
+}
+h2 {
+  padding: 0px 20px;
+}
+.ncd{
+  width: 230px;
+  margin: auto;
+}
+.ncd1{
+  width: 220px;
+  margin: auto;
+}
+.tinh2 {
+  margin: auto;
+  width: 90px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px 13px;
+  border-radius: 13px;
+  background-color: #86cb92;
+}
+
+.n1 {
+  text-align: center;
+  margin: 5px 10px 2px 10px;
+}
+.nb{
+  margin-left: 16px;
+}
+.son1b {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: 5px 6px 2px 36px;
+  padding: 4px 5px;
+}
+
+.sod1b {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: 5px 6px 2px 36px;
+  padding: 4px 5px;
+}
+.son2b {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: 5px 6px 2px 36px;
+  padding: 4px 5px;
+}
+.tysoc {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: 5px 6px 2px 30px;
+  padding: 4px 5px;
+}
+
+
+
+.part3a{
+  background-color: #f0ead2;
+  border: 3px solid;
+  border-radius: 20px;
+  height: 290px;
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  font-family: "League Spartan", sans-serif;
+}
+.dp{
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 4px 5px;
+  width: 130px;
+}
+.np{
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 130px;
+  padding: 4px 5px;
+}
+.de{
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 4px 5px;
+  width: 130px;
+}
+.ne{
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #d8a48f;
+  margin: auto;
+  margin-left: 20px;
+  padding: 4px 5px;
+  width: 130px;
+  margin-bottom: 10px;
+}
+.tinh3{
+  margin: auto;
+  width: 90px;
+  text-align: justify;
+  margin: auto;
+  margin-left: 110px;
+  margin-bottom: 10px;
+  padding: 8px 13px;
+  border-radius: 13px;
+  background-color: #86cb92;
+}
+.nc{
+  margin-left: 60px;
+}
+
+
+
+
+.b{
+  background-color: #f0ead2;
+  border: 3px solid #2d3142;
+  text-align: center;
+  border-radius: 6px;
+  font-family: "League Spartan", sans-serif;
+  height: 190px;
+  width: 500px;
+  padding: 10px 3px 10px 5px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.bthuc1{
+  background-color: #f1e3d3;
+  border: 1px dashed #6c757d;
+  border-radius: 6px;
+  padding: 8px 1px 5px 1px;
+}
+.kihieu1,.d1{
+  padding: 5px 6px 5px 60px;
+}
+.tab{
+  text-align: center;
+}
+
+.d{
+  margin: auto;
+  /* padding: 5px 6px 5px 60px; */
+}
+
+@media only screen and (max-width:600px){
+  /* .tuade{
+    margin: auto;
+    width: 300px;
+  }
+  .son12{
+    width: 80px
+  }
+  .demucnho1,.demucnho3{
+    margin: auto;
+    margin-top: 40px; 
+  }
+  .part1a{
+    margin: auto;
+    height: 240px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tinh1{
+    margin: auto;
+    align-self: center;
+    margin-left: 80px;
+  }
+  .n {
+    margin-left: 16px;
+    text-align: center;
+  }
+  
+  .tonglieu {
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #d8a48f;
+    padding: 4px 5px;
+    width: 150px;
+    margin: auto;
+    margin-left: 20px;
+  }
+  .sophanlieu {
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #d8a48f;
+    padding: 4px 5px;
+    width: 150px;
+    margin: auto;
+    margin-left: 20px;
+  }
+  .tysoa {
+    border-radius: 8px;
+    border: 2px solid #d8a48f;
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+    padding: 4px 5px;
+    width: 150px;
+  }
+  .tinh1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .tbody{
+    margin: auto;
+  } */
+  .a,.b{
+    width: 300px;
+  }
+  .kihieu,.mota,.d,.d1,.d2,.kihieu1,mota1{
+    font-size: 60%;
+  }
+  .part3a{
+    margin-top: 20px;
+  }
+  .part2{
+    flex-direction: column;
+    margin: auto;
+  }
+  .part2a,.part2b{
+    margin: auto;
+    margin-top: 10px;
+  }
+}
