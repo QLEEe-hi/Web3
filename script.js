@@ -76,7 +76,7 @@ function ChuyenDoi(){
     ab = checkchuoi(ab.value)  
   
     if(dk(n1) && d2>=0 && d1>=0 && ab>0){
-        let kqn2 = Math.round(((n1*d1*(ab+d1))/(d2*(ab+d2)))*100)/100;
+        let kqn2 = Math.round(((n1*d1*(1+d1/ab)))/(d2*(1+d2/ab))*100)/100;
         document.getElementById("n2").value = kqn2.toString();
     }
     else{
