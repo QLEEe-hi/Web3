@@ -3,7 +3,6 @@ body {
 }
 
 
-
 .tuade {
   text-align: center;
   font-family: "Roboto Mono", monospace;
@@ -145,6 +144,7 @@ body {
 }
 .kihieu,.kihieu1,mota{
   margin: auto;
+  width: 100px;
 }
 
 
@@ -163,7 +163,6 @@ body {
   padding: 10px;
   font-family: "League Spartan", sans-serif;
   margin-right: 50px;
-
 }
 .part2b {
   text-align: center;
@@ -269,6 +268,18 @@ h2 {
   margin: 5px 6px 2px 30px;
   padding: 4px 5px;
 }
+.c{
+  background-color: #f0ead2;
+  border: 3px solid #2d3142;
+  text-align: center;
+  border-radius: 6px;
+  font-family: "League Spartan", sans-serif;
+  height: 30px;
+  width: 600px;
+  padding: 10px 3px 10px 5px;
+  margin: auto;
+  margin-top: 20px;
+}
 
 
 
@@ -373,83 +384,30 @@ h2 {
 }
 
 @media only screen and (max-width:600px){
-  /* .tuade{
-    margin: auto;
-    width: 300px;
-  }
-  .son12{
-    width: 80px
-  }
-  .demucnho1,.demucnho3{
-    margin: auto;
-    margin-top: 40px; 
-  }
-  .part1a{
-    margin: auto;
-    height: 240px;
-    width: 250px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .tinh1{
-    margin: auto;
-    align-self: center;
-    margin-left: 80px;
-  }
-  .n {
-    margin-left: 16px;
-    text-align: center;
-  }
-  
-  .tonglieu {
-    text-align: center;
-    border-radius: 8px;
-    border: 2px solid #d8a48f;
-    padding: 4px 5px;
-    width: 150px;
-    margin: auto;
-    margin-left: 20px;
-  }
-  .sophanlieu {
-    text-align: center;
-    border-radius: 8px;
-    border: 2px solid #d8a48f;
-    padding: 4px 5px;
-    width: 150px;
-    margin: auto;
-    margin-left: 20px;
-  }
-  .tysoa {
-    border-radius: 8px;
-    border: 2px solid #d8a48f;
-    text-align: center;
-    font-family: "League Spartan", sans-serif;
-    padding: 4px 5px;
-    width: 150px;
-  }
-  .tinh1{
-    margin-top: 15px;
-    margin-bottom: 10px;
-  }
-  .tbody{
-    margin: auto;
-  } */
   .a,.b{
-    width: 300px;
+    width: 400px;
+  }
+  .c{
+    width: 400px;
   }
   .kihieu,.mota,.d,.d1,.d2,.kihieu1,mota1{
     font-size: 60%;
+    width: 60px;
   }
   .part3a{
     margin-top: 20px;
   }
   .part2{
     flex-direction: column;
-    margin: auto;
   }
   .part2a,.part2b{
     margin: auto;
     margin-top: 10px;
+  }
+  .BED,.dc,.bthuc,.bthuc1{
+  font-size: 80%;
+  }
+  .bthuc,.bthuc1{
+    width: 200px;
   }
 }
